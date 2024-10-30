@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC", "ToritosSAC\ToritosSAC.csproj", "{6CBE307D-15FF-439A-BC96-EFE65C44E306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToritosSAC", "ToritosSAC\ToritosSAC.csproj", "{6CBE307D-15FF-439A-BC96-EFE65C44E306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC.BusinessLogic", "ToritosSAC.BusinessLogic\ToritosSAC.BusinessLogic.csproj", "{1B6F9932-3CE8-400C-B751-6CF8026FD994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToritosSAC.BusinessLogic", "ToritosSAC.BusinessLogic\ToritosSAC.BusinessLogic.csproj", "{1B6F9932-3CE8-400C-B751-6CF8026FD994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC.DataAccess", "ToritosSAC.DataAccess\ToritosSAC.DataAccess.csproj", "{0753F195-9BC1-4002-B7FA-9A1DEB3F22A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC.Entities", "ToritosSAC.Entities\ToritosSAC.Entities.csproj", "{68515C6C-E385-4C86-866C-67C68FAF64EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0753F195-9BC1-4002-B7FA-9A1DEB3F22A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0753F195-9BC1-4002-B7FA-9A1DEB3F22A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0753F195-9BC1-4002-B7FA-9A1DEB3F22A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0753F195-9BC1-4002-B7FA-9A1DEB3F22A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68515C6C-E385-4C86-866C-67C68FAF64EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68515C6C-E385-4C86-866C-67C68FAF64EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68515C6C-E385-4C86-866C-67C68FAF64EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68515C6C-E385-4C86-866C-67C68FAF64EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
