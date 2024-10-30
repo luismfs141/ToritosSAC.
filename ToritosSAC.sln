@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC", "ToritosSAC\ToritosSAC.csproj", "{6CBE307D-15FF-439A-BC96-EFE65C44E306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToritosSAC.BusinessLogic", "ToritosSAC.BusinessLogic\ToritosSAC.BusinessLogic.csproj", "{1B6F9932-3CE8-400C-B751-6CF8026FD994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6CBE307D-15FF-439A-BC96-EFE65C44E306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CBE307D-15FF-439A-BC96-EFE65C44E306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CBE307D-15FF-439A-BC96-EFE65C44E306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6F9932-3CE8-400C-B751-6CF8026FD994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
