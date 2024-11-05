@@ -1,8 +1,11 @@
+using ToritosSAC.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ToritosDBContext>();
 
 var app = builder.Build();
 
